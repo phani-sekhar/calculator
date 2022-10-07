@@ -1,21 +1,21 @@
-let outputScreen = document.getElementById('output');
+let outputScreen = document.getElementById("output");
 
 function display(num) {
-    outputScreen.value += num;
+  outputScreen.value += num;
 }
 
 function calculate() {
-    try {
-        outputScreen.value = eval(outputScreen.value);
-    } catch (err) {
-        alert('Invalid expression')
-    }
+  try {
+    outputScreen.value = eval(outputScreen.value);
+  } catch (err) {
+    alert("Invalid Expression");
+  }
 }
 
 function ac() {
-    outputScreen.value = "";
+  outputScreen.value = "";
 }
 
 function del() {
-    outputScreen.value = outputScreen.value.slice(0, -1);
+  outputScreen.value = outputScreen.value.slice(0, -1);
 }
