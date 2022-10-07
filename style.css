@@ -48,11 +48,15 @@ button {
   text-align: center;
   font-weight: 600;
 }
-
-.equalTo {
+.zero {
   width: 120px;
   border-radius: 30px;
+  grid-column: span 2;
 }
+/* .equalTo {
+  width: 120px;
+  border-radius: 30px;
+} */
 /* Color Classes */
 .orange {
   background-color: #ff9500;
